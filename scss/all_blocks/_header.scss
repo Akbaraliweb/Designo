@@ -1,0 +1,42 @@
+header{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__list {
+    display: flex;
+    margin-top: 0;
+    list-style-type: none;
+}
+
+.header__itams:nth-child(2n){
+    margin: 0 32px;
+}
+
+.header__itams-link{
+    color: #333136;
+    font-size: 14px; 
+}
+
+.header__itams-link:hover{
+    text-decoration-line: underline;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .header__list{
+        margin-right: 30px;
+        margin-top: 0;
+        margin-left: 100px;
+    }
+   
+}
+     
+
+@media only screen and (max-width:375px){
+    
+}
